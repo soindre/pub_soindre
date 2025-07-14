@@ -1,5 +1,14 @@
 # Quantifying the Impact of Sampling Error in Social Vulnerability Index Construction
 
+
+---
+
+## Notes for Reviewers
+
+- It includes all **code** required to support the findings in the manuscript.
+- The full index construction and sensitivity analysis were executed on a high-performance computing (HPC) cluster using 150 CPU cores. 
+- This repository does not include reusable software packages developed for this study, which are under separate development and licensing.
+
 ---
 
 ## Overview of the Analysis
@@ -19,22 +28,11 @@
 - Compute **Sobol indices** to assess sensitivity of results to each modeling choice
 - Visualize rank variation and interaction effects
 
----
-
-## Notes for Reviewers
-
-- This repository **does not include the full codebase** or reusable software packages developed for this study, which are under separate development and licensing.
-- It includes all **code** required to support the findings in the manuscript.
-
----
-
 ## Data Sources
 
-All input data are **open source** and publicly available:
-
-- **ACS Variance Replicate Tables (VRTs)**:  
-  https://www.census.gov/programs-surveys/acs/data/variance-tables.html
-
-Data used here have been downloaded, aggregated, and pre-processed for analysis. No proprietary datasets are used.
+- Input data are not included in this repository because they are openly available from official sources and can be accessed directly:
+- ACS Variance Replicate Tables (VRTs):
+  - https://www.census.gov/programs-surveys/acs/data/variance-tables.html
+- Code used for analysis is included in this repository. It enables full reproduction of the study’s results, subject to available computing resources.
 
 ---
